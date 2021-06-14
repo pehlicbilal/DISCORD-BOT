@@ -1,1 +1,1 @@
-worker: node bot.js
+worker: sh -c 'cd ./app/ &&  node bot.js'
