@@ -1,6 +1,6 @@
 const susedGif = require("./gif");
 const susedVote = require("./poll");
-const sused = require("./random_talks");
+const sused = require("./izjave");
 const saObzirom = require("./pasa");
 const help = require("./help");
 const kakoSeKaze = require("./gradonacelnik");
