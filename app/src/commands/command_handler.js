@@ -3,13 +3,15 @@ const susedVote = require("./poll");
 const sused = require("./random_talks");
 const saObzirom = require("./pasa");
 const help = require("./help");
+const kakoSeKaze = require("./gradonacelnik");
 
 const commands = {
     susedGif    ,
     susedVote   ,
     sused       ,
     saObzirom   ,
-    help
+    help        ,
+    kakoSeKaze
 };
 
 module.exports = async function (msg){
