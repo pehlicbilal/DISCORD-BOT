@@ -28,6 +28,6 @@ module.exports = function (msg,args){
             {name:"\u200B" , value: "\u200B"} 
         )
         .setImage("https://cdn.discordapp.com/attachments/853026249668165672/853702542307622922/tenor.gif")
-        .setFooter("Bot created by jedan jedini vas Sused", "https://cdn.discordapp.com/attachments/853026249668165672/853627848206974986/Screenshot_2.png");
+        .setFooter("Bot created by jedan jedini vas Sused");
         msg.channel.send(helpEmbed);     
     }

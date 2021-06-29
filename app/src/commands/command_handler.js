@@ -1,19 +1,19 @@
-const susedGif = require("./gif");
-const susedVote = require("./poll");
+const susedgif = require("./gif");
+const susedvote = require("./poll");
 const sused = require("./izjave");
-const saObzirom = require("./pasa");
+const saobzirom = require("./pasa");
 const help = require("./help");
-const kakoSeKaze = require("./gradonacelnik");
-const susedInfo = require("./user-info")
+const kakosekaze = require("./gradonacelnik");
+const susedinfo = require("./user-info");
 
 const commands = {
-    susedGif    ,
-    susedVote   ,
+    susedgif    ,
+    susedvote   ,
     sused       ,
-    saObzirom   ,
+    saobzirom   ,
     help        ,
-    kakoSeKaze  ,
-    susedInfo   
+    kakosekaze  ,
+    susedinfo   ,
 };
 
 module.exports = async function (msg){

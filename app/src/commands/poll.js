@@ -30,7 +30,7 @@ module.exports = async function (msg , args){
         .setColor(color[Math.floor(Math.random()*color.length)])
         .setAuthor("VOTE")
         .setTitle(words[0])
-        .setFooter("Bot created by jedan jedini vas Sused", "https://cdn.discordapp.com/attachments/853026249668165672/853627848206974986/Screenshot_2.png");
+        .setFooter("Bot created by jedan jedini vas Sused");
 
         msg.channel.send(voteEmbed1)
         .then(function (message) {
@@ -43,7 +43,7 @@ module.exports = async function (msg , args){
         .setColor(color[Math.floor(Math.random()*color.length)])
         .setAuthor("VOTE")
         .setTitle(words[0])
-        .setFooter("Bot created by jedan jedini vas Sused", "https://cdn.discordapp.com/attachments/853026249668165672/853627848206974986/Screenshot_2.png");
+        .setFooter("Bot created by jedan jedini vas Sused");
         for(let i=1;i<words.length;i++){
             voteEmbed2.addFields({
                 name: `Option${i}:`, value: `${words[i]} ${numEmojis[i-1]}`            
