@@ -4,6 +4,7 @@ const sused = require("./izjave");
 const saObzirom = require("./pasa");
 const help = require("./help");
 const kakoSeKaze = require("./gradonacelnik");
+const susedInfo = require("./user-info")
 
 const commands = {
     susedGif    ,
@@ -11,7 +12,8 @@ const commands = {
     sused       ,
     saObzirom   ,
     help        ,
-    kakoSeKaze
+    kakoSeKaze  ,
+    susedInfo   
 };
 
 module.exports = async function (msg){

@@ -3,11 +3,11 @@ const Discord = require("discord.js");
 const color = [
     "#526F8E","#249DDE",
     "#1DDF99","#11DC26",
-    "#F0F713","#F0D917 ",
+    "#F0F713","#F0D917",
     "#BD1515","#FA9797",
     "#8684FA","#381CC7",
     "#1E8ED6","#FFFFFF",
-    "#FFBE01","#27E501 ",
+    "#FFBE01","#27E501",
     "#44613E","#3D4867"
 ];
 
@@ -46,7 +46,7 @@ module.exports = async function (msg , args){
         .setFooter("Bot created by jedan jedini vas Sused", "https://cdn.discordapp.com/attachments/853026249668165672/853627848206974986/Screenshot_2.png");
         for(let i=1;i<words.length;i++){
             voteEmbed2.addFields({
-                name: `Options${i}:`, value: `${words[i]} ${numEmojis[i-1]}`            
+                name: `Option${i}:`, value: `${words[i]} ${numEmojis[i-1]}`            
             });
         };
         msg.channel.send(voteEmbed2)  
