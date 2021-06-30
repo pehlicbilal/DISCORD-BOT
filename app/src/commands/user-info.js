@@ -65,7 +65,6 @@ module.exports = async function(msg , args){
                 }      
             )
         .setFooter("Bot created by jedan jedini vas Sused");
-        console.log(member.roles);
 
     msg.channel.send(userEmbed);   
 }
