@@ -20,11 +20,13 @@ module.exports = function (msg,args){
         .addFields(
             {name:"Commands:" , value:"\u200B"} ,
             {name:"!sused" , value: "daje vam izjave"} ,
-            {name:"!susedGif" , value: "daje vam random gifove"} ,
-            {name:`!susedGif naziv gifa` , value: `daje vam trazeni gif`} ,
-            {name:"!susedVote /pitanje" , value: "daje vam embed sa postavljenim pitanjem i rekciju sa da ili ne"} ,
-            {name:"!susedVote /pitanje/opcija1/opcija2/itd" , value: "daje vam embed sa postavljenim pitanjem i opcijama"} ,
-            {name: "!saObzirom" , value: "napisi pa vidi sta dobijes"} , 
+            {name:"!susedgif" , value: "daje vam random gifove"} ,
+            {name:`!susedgif naziv gifa` , value: `daje vam trazeni gif`} ,
+            {name:"!susedvote /pitanje" , value: "daje vam embed sa postavljenim pitanjem i rekciju sa da ili ne"} ,
+            {name:"!susedvote /pitanje/opcija1/opcija2/itd" , value: "daje vam embed sa postavljenim pitanjem i opcijama"} ,
+            {name: "!susedinfo" , value: "daje vam informacije o vaem discord account-u"} ,
+            {name: "!saobzirom" , value: "napisi pa vidi sta dobijes"} ,
+            {name: "!kakosekaze" , value: "napisi pa vidi sta dobijes"} ,        
             {name:"\u200B" , value: "\u200B"} 
         )
         .setImage("https://cdn.discordapp.com/attachments/853026249668165672/853702542307622922/tenor.gif")
