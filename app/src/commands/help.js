@@ -24,7 +24,7 @@ module.exports = function (msg,args){
             {name:`!susedgif naziv gifa` , value: `daje vam trazeni gif`} ,
             {name:"!susedvote /pitanje" , value: "daje vam embed sa postavljenim pitanjem i rekciju sa da ili ne"} ,
             {name:"!susedvote /pitanje/opcija1/opcija2/itd" , value: "daje vam embed sa postavljenim pitanjem i opcijama"} ,
-            {name: "!susedinfo" , value: "daje vam informacije o vaem discord account-u"} ,
+            {name: "!susedinfo" , value: "daje vam informacije o vasem discord account-u"} ,
             {name: "!saobzirom" , value: "napisi pa vidi sta dobijes"} ,
             {name: "!kakosekaze" , value: "napisi pa vidi sta dobijes"} ,        
             {name:"\u200B" , value: "\u200B"} 
