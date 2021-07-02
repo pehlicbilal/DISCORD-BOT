@@ -6,6 +6,7 @@ const help = require("./help");
 const kakosekaze = require("./gradonacelnik");
 const susedinfo = require("./user-info");
 const susedjoin = require("./join-voice");
+const susedleave = require("./leave-voice");
 
 const commands = {
     susedgif    ,
@@ -16,6 +17,7 @@ const commands = {
     kakosekaze  ,
     susedinfo   ,
     susedjoin   ,
+    susedleave
 };
 
 module.exports = async function (msg){

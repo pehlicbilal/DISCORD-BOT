@@ -1,7 +1,12 @@
 
 
 module.exports = async (msg , args) => {
-	if (msg.member.voice.channel) {
-		const connection = await msg.member.voice.channel.join();
+
+	const voiceChannel = msg.member.voice.channel;
+
+	if (voiceChannel) {
+		const connection = await voiceChannel.join();
+	}else{
+		msg.channel.send("Nema te u voice");
 	} 
 }
